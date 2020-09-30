@@ -1,0 +1,12 @@
+{
+  "editor.formatOnPaste": false,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "extensions.ignoreRecommendations": false,
+  "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "prettier.requireConfig": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}

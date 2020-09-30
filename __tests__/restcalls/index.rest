@@ -1,0 +1,55 @@
+### LOGIN
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+	"email": "sato@btc.com",
+	"password": "whoami"
+}
+
+
+### USER LIST
+GET http://localhost:3000/users?limit=10&offset=0&query=der
+x-api-key: xxx
+
+### USER ME
+GET http://localhost:3000/users/me
+x-api-key: xxx
+
+### USER DETAILS
+GET http://localhost:3000/users/2?withRelated=assessments.comments&withRelated=assessments.uploads
+x-api-key: xxx
+
+### PING
+GET http://localhost:3000/ping
+
+### SETUP
+GET http://localhost:3000/setup/landing
+x-api-key: xxx
+
+### Assessment Comments Create
+POST http://localhost:3000/assessment_comments/
+Content-Type: application/json
+{
+  "user_id": 1,
+  "assessment_id": 1,
+	"comment": "Só VAI malandro!"
+}
+
+### Assessment Comments Delete
+DELETE http://localhost:3000/assessment_comments/3
+Content-Type: application/json
+
+
+### Invite Create
+POST http://localhost:3000/invites/
+Content-Type: application/json
+
+{
+	"name": "Baaatmaan",
+	"email": "b@tmaaaan.com"
+}
+
+### Invite Create
+GET http://localhost:3000/invites/pending
+Content-Type: application/json
