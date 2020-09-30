@@ -53,3 +53,5 @@ npm run db:migrate-down // rollback db migration
 npm run db:seed         // run db seed
 npm run db:seed-make    // generate new seed file
 ```
+
+![alt text](https://github.com/ivoneijr/saas-fit-api/blob/master/docs/db.png)
