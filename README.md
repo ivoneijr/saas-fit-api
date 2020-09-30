@@ -53,13 +53,3 @@ npm run db:migrate-down // rollback db migration
 npm run db:seed         // run db seed
 npm run db:seed-make    // generate new seed file
 ```
-
-### TODO
-
-```sh
-[] create invite mail worker
-[] insert photo
-[] Add jobs and crons
-[] create user and password
-[] create assessment
-```
